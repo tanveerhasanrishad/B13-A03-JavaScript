@@ -1,4 +1,3 @@
-//Problem-01: New Price for Eid Sale
 function newPrice(currentPrice, discount) {
   if (
     typeof currentPrice !== "number" ||
@@ -14,7 +13,6 @@ function newPrice(currentPrice, discount) {
   }
 }
 
-//Problem-02: OTP Validation for Zapshift
 function validOtp(otp) {
   if (typeof otp !== "string") {
     return "Invalid";
@@ -27,7 +25,6 @@ function validOtp(otp) {
   }
 }
 
-//Problem-03: BCS Final Score Calculator
 function finalScore(omr) {
   if (omr.right + omr.wrong + omr.skip !== 100) {
     return "Invalid";
@@ -40,7 +37,6 @@ function finalScore(omr) {
   }
 }
 
-//Problem-04: Upcoming Gono Vote
 function gonoVote(array) {
   if (!Array.isArray(array)) {
     return "Invalid";
@@ -64,7 +60,6 @@ function gonoVote(array) {
   }
 }
 
-//Problem-05: Text Analyzer for an AI Company
 function analyzeText(str) {
   let obj = {
     longwords: "",
